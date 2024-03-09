@@ -3,6 +3,8 @@ import React from 'react';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
+
+// Can move to constants folder later, but it's quite short.
 const data = [
   { number: 20, text: 'Open Source Projects'},
   { number: 1000, text: 'Students', },
@@ -11,9 +13,21 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
+<Section>
+  <SectionTitle>
+    Personal Accomplishments
+  </SectionTitle>
+  <Boxes>
+    {data.map((card, index) => (
+      <Box key={index}>
+<BoxNum>
+  {card.number}+
+</BoxNum>
+<BoxText>{card.text}</BoxText>
+      </Box>
+    ))}
+  </Boxes>
+</Section>
 );
 
 export default Acomplishments;
