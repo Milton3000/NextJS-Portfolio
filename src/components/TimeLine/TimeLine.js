@@ -65,24 +65,30 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+<Section id="about">
+  <div style={{ display: "flex", alignItems: "flex-start" }}>
+    <div style={{ flex: 1 }}>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        After spending 7 years in South-Korea, working as an English Teacher, I
-        decided to move back home to Sweden and pursue a career in Web
+        After spending 7 years in South-Korea, working as an English Teacher,
+        I decided to move back home to Sweden and pursue a career in Web
         Development. <br />
-        I always strive to be the best version of myself, and I always seek new
-        challenges and ways to improve personally and professionally. <br />
+        I always strive to be the best version of myself, and I always seek
+        new challenges and ways to improve personally and professionally. <br />
         {/* I also have a Shiba Inu that I brought with me from South Korea, and she is my everything. */}
       </SectionText>
+    </div>
+    <div style={{ width: "300px", height: "250px" }}>
       <Image
         src="/images/MiltonSmall.png"
-        alt="Your Name" 
-        layout="responsive" 
-        width={100} 
-        height={30} 
-        objectFit="contain" 
+        alt="Milton"
+        layout="responsive"
+        width={200}
+        height={220}
+        objectFit="contain"
       />
+    </div>
+  </div>
 
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

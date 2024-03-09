@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Rick & Morty WiKi',
     description: "My first project doing a search-engine for Rick & Morty that provides filtering of Status, Gender and Species for all the Characters. With 51 Episodes and 126 Locations available, this became quite an extensive Wiki for finding information about Rick & Morty.",
-      image: '/images/Rick.png',
+      image: '/images/Rick2.png',
       tags: ['React', 'Bootstrap', 'Javascript', 'API'],
     source: 'https://github.com/Milton3000/Rick-Morty-API',
     visit: 'https://github.com/Milton3000/Rick-Morty-API/tree/master/src',
@@ -10,8 +10,8 @@ export const projects = [
   },
   {
     title: 'E-Commerce',
-    description: "An E-commerce website involving a Fake API for fetching data. The code utilizes JavaScript along with HTML and Tailwind CSS for dynamic content rendering, user interaction handling, and local storage management. You can browse products, manage a shopping cart, and view detailed product information.",
-      image: '/images/Ecom.png',
+    description: "E-commerce website involving Fake API for fetching data. The code utilizes JavaScript along with Tailwind CSS for dynamic content rendering and user interaction handling. You can browse products, manage a shopping cart, and view detailed product information.",
+      image: '/images/Ecom2.png',
       tags: ['React', 'Tailwind', 'Javascript', 'API'],
     source: 'https://github.com/Milton3000/API-UPG.-MILTON-FINISHED',
     visit: 'https://github.com/Milton3000/API-UPG.-MILTON-FINISHED/tree/main/src',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: '3D Portfolio',
-    description: "This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D. ",
+    description: "This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D. This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D.",
       image: '/images/1.png',
       tags: ['React', 'Vite', 'Three.js', 'Tailwind'],
     source: 'https://github.com/Milton3000/Rick-Morty-API',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Mesh Gradient Profile',
     description: "One of the first portfolios / profiles I made just involving basic HTML and CSS. The luminous gradient light is spinning, creating an immersive background.",
-      image: '/images/Mesh.png',
+      image: 'images/1.png',
       tags: ['HTML', 'CSS'],
     source: 'https://milton3000.github.io/',
     visit: 'https://github.com/Milton3000/MESH-GRADIENT-PROFILE',
