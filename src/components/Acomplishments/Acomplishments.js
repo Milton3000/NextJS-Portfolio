@@ -6,10 +6,10 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 // Can move to constants folder later, but it's quite short.
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 5, text: 'Open Source Projects'},
+  { number: 4, text: 'Certficates', },
+  { number: 1, text: 'Github Follower', },
+  { number: 1, text: 'Shiba Inu', }
 ];
 
 const Acomplishments = () => (

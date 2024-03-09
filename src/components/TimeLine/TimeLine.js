@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import Image from "next/image";
 
 import {
   CarouselButton,
@@ -26,8 +27,8 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
-  }
+    return node.scrollTo({ left, behavior: "smooth" });
+  };
 
   const handleClick = (e, i) => {
     e.preventDefault();
@@ -43,28 +44,46 @@ const Timeline = () => {
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.round(
+        (carouselRef.current.scrollLeft /
+          (carouselRef.current.scrollWidth * 0.7)) *
+          TimeLineData.length
+      );
 
       setActiveItem(index);
     }
-  }
+  };
 
   // // snap back to beginning of scroll when window is resized
   // // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
-    }
+    };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
   }, []);
 
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I started learning blablablba Milestones bla bla bla, Tes Test
+        After spending 7 years in South-Korea, working as an English Teacher, I
+        decided to move back home to Sweden and pursue a career in Web
+        Development. <br />
+        I always strive to be the best version of myself, and I always seek new
+        challenges and ways to improve personally and professionally. <br />
+        {/* I also have a Shiba Inu that I brought with me from South Korea, and she is my everything. */}
       </SectionText>
+      <Image
+        src="/images/MiltonSmall.png"
+        alt="Your Name" 
+        layout="responsive" 
+        width={100} 
+        height={30} 
+        objectFit="contain" 
+      />
+
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -113,9 +132,7 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
                 </CarouselItemTitle>
-                <CarouselItemText>
-                  {item.text}
-                </CarouselItemText>
+                <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}

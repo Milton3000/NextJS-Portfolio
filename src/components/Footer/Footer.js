@@ -31,7 +31,17 @@ kristofferssonmilton@gmail.com
         Innovating one project at a time.
       </Slogan>
     </CompanyContainer>
-    
+    <SocialContainer> 
+    <SocialIcons href="https://github.com/Milton3000" target="_blank">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/milton-kristoffersson90" target="_blank">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.instagram.com/miltonkristoffersson/" target="_blank">
+        <AiFillInstagram size="3rem" />
+      </SocialIcons>
+      </SocialContainer>
   </SocialIconsContainer>
 </FooterWrapper>
   );
