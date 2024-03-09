@@ -11,7 +11,7 @@ const Technologies = () =>  (
 <SectionText>
 From crafting elegant user interfaces to building
 robust backend systems, I enjoy working across the full spectrum of web development.
-I am proficient in HTML, CSS, Javascript, React, NOSQL/SQL & MongoDB
+I am proficient in HTML, CSS, Javascript, React, Node, NOSQL/SQL & MongoDB
 </SectionText>
 <List>
   <ListItem>

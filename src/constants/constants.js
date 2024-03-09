@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: '3D Portfolio',
-    description: "This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D. This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D.",
+    description: "[NOT FINISHED] This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D. This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D.",
       image: '/images/1.png',
       tags: ['React', 'Vite', 'Three.js', 'Tailwind'],
     source: 'https://github.com/Milton3000/Rick-Morty-API',

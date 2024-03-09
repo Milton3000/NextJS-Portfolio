@@ -73,8 +73,8 @@ const Timeline = () => {
         After spending 7 years in South-Korea, working as an English Teacher,
         I decided to move back home to Sweden and pursue a career in Web
         Development. <br />
-        I always strive to be the best version of myself, and I always seek
-        new challenges and ways to improve personally and professionally. <br />
+        I always strive to be the best version of myself, where I enjoy seeking
+        new challenges and ways to improve both personally and professionally. <br />
         {/* I also have a Shiba Inu that I brought with me from South Korea, and she is my everything. */}
       </SectionText>
     </div>
