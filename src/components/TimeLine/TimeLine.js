@@ -79,12 +79,12 @@ const Timeline = () => {
       </SectionText>
     </div>
     <div style={{ width: "300px", height: "250px" }}>
-      <Image
+      <img
         src="/images/MiltonSmall.png"
         alt="Milton"
         layout="responsive"
-        width={200}
-        height={220}
+        width={250}
+        height={300}
         objectFit="contain"
       />
     </div>
