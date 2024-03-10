@@ -10,14 +10,21 @@ import {
   Div3,
   NavLink,
   SocialIcons,
-  Span
+  Span,
 } from "./HeaderStyles";
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}>
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20px",
+          }}
+        >
           <DiCssdeck size="3rem" /> <Span> Portfolio </Span>
         </a>
       </Link>
@@ -40,13 +47,19 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-    <SocialIcons href="https://github.com/Milton3000" target="_blank">
+      <SocialIcons href="https://github.com/Milton3000" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/milton-kristoffersson90" target="_blank">
+      <SocialIcons
+        href="https://www.linkedin.com/in/milton-kristoffersson90"
+        target="_blank"
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/miltonkristoffersson/" target="_blank">
+      <SocialIcons
+        href="https://www.instagram.com/miltonkristoffersson/"
+        target="_blank"
+      >
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>

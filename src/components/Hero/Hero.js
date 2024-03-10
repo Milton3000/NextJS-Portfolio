@@ -12,7 +12,8 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Milton<br />
+        Milton
+        <br />
         Kristoffersson
       </SectionTitle>
       <SectionText>
@@ -21,10 +22,10 @@ const Hero = (props) => (
       </SectionText>
       <Button
         onClick={() =>
-          (window.location.href = "mailto:kristofferssonmilton@gmail.com")
+          window.open("https://miltonkristoffersson.my.canva.site/cv", "_blank")
         }
       >
-        Get in Touch
+        Resume
       </Button>
     </LeftSection>
   </Section>

@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import Image from "next/image";
 
 import {
   CarouselButton,
@@ -78,15 +77,22 @@ const Timeline = () => {
         {/* I also have a Shiba Inu that I brought with me from South Korea, and she is my everything. */}
       </SectionText>
     </div>
-    <div style={{ width: "300px", height: "250px" }}>
-      <img
-        src="/images/MiltonSmall.png"
-        alt="Milton"
-        layout="responsive"
-        width={250}
-        height={300}
-        objectFit="contain"
-      />
+    <div style={{ width: "300px"}}>
+    <img
+            src="/images/MiltonSmall.png"
+            alt="Milton"
+            layout="responsive"
+            width={230}
+            height={300}
+            style={{
+              maxWidth: '100%',
+              height: 'auto',
+              '@media (max-width: 280px)': {
+                width: '100%',
+                height: 'auto'
+              }
+            }}
+          />
     </div>
   </div>
 
