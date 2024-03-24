@@ -19,11 +19,11 @@ export const projects = [
   },
   {
     title: '3D Portfolio',
-    description: "[NOT FINISHED] This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D. This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D.",
+    description: "[NOT FINISHED, STILL WORKING ON IT] This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D. This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D.",
       image: '/images/1.png',
       tags: ['React', 'Vite', 'Three.js', 'Tailwind'],
-    source: 'https://github.com/Milton3000/Rick-Morty-API',
-    visit: 'https://github.com/Milton3000/Rick-Morty-API/tree/master/src',
+    source: 'https://github.com/Milton3000/3D-Portfolio',
+    visit: 'https://3d-portfolio-steel-five.vercel.app/',
     id: 2,
   },
   {
