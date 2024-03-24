@@ -17,13 +17,13 @@ export const projects = [
     visit: 'https://github.com/Milton3000/API-UPG.-MILTON-FINISHED/tree/main/src',
     id: 1,
   },
-  {
+  { 
     title: '3D Portfolio',
     description: "[NOT FINISHED, STILL WORKING ON IT] This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D. This is probably my most difficult profile, involving Vite, Tailwind CSS, and Three.js (Fiber, Drei) for 3D.",
       image: '/images/1.png',
       tags: ['React', 'Vite', 'Three.js', 'Tailwind'],
-    source: 'https://github.com/Milton3000/3D-Portfolio',
-    visit: 'https://3d-portfolio-steel-five.vercel.app/',
+    source: 'https://3d-portfolio-steel-five.vercel.app/',
+    visit: 'https://github.com/Milton3000/3D-Portfolio',
     id: 2,
   },
   {
