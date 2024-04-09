@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Rick & Morty WiKi',
     description: "My first project doing a search-engine for Rick & Morty that provides filtering of Status, Gender and Species for all the Characters. With 51 Episodes and 126 Locations available, this became quite an extensive Wiki for finding information about Rick & Morty.",
-      image: '/images/Rick2.png',
+      image: '/images/RM Transparent.png',
       tags: ['React', 'Bootstrap', 'Javascript', 'API'],
     source: 'https://rick-morty-api-steel.vercel.app/',
     visit: 'https://github.com/Milton3000/Rick-Morty-API/tree/master/src',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'E-Commerce',
     description: "E-commerce website involving Fake API for fetching data. The code utilizes JavaScript along with Tailwind CSS for dynamic content rendering and user interaction handling. You can browse products, manage a shopping cart, and view detailed product information.",
-      image: '/images/Ecom2.png',
+      image: '/images/OrangeBG.png',
       tags: ['React', 'Tailwind', 'Javascript', 'API'],
     source: 'https://api-upg-milton-finished.vercel.app/#',
     visit: 'https://github.com/Milton3000/API-UPG.-MILTON-FINISHED/tree/main/src',

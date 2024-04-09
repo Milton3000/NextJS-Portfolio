@@ -29,6 +29,7 @@ export const BlogCard = styled.div`
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    border-radius: 10px;
   }
 `;
 export const TitleContent = styled.div`
