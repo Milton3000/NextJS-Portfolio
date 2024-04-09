@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'E-Commerce',
     description: "E-commerce website involving Fake API for fetching data. The code utilizes JavaScript along with Tailwind CSS for dynamic content rendering and user interaction handling. You can browse products, manage a shopping cart, and view detailed product information.",
-      image: '/images/OrangeBG.png',
+      image: '/images/OrangeLogo.png',
       tags: ['React', 'Tailwind', 'Javascript', 'API'],
     source: 'https://api-upg-milton-finished.vercel.app/#',
     visit: 'https://github.com/Milton3000/API-UPG.-MILTON-FINISHED/tree/main/src',
