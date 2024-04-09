@@ -64,7 +64,9 @@ const Timeline = () => {
   }, []);
 
   return (
-<Section id="about">
+    
+<Section nopadding id="about">
+<SectionDivider style={{ marginBottom: '35px' }} />
   <div style={{ display: "flex", alignItems: "flex-start" }}>
     <div style={{ flex: 1 }}>
       <SectionTitle>About Me</SectionTitle>
@@ -163,7 +165,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      <SectionDivider style={{ marginBottom: '10px' }} />
     </Section>
   );
 };

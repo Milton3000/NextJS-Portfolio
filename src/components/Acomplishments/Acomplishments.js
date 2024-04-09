@@ -8,7 +8,7 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 // Can move to constants folder later, but it's quite short.
 const data = [
-  { number: 5, text: "Open Source Projects" },
+  { number: 5, text: "Hobby Projects" },
   { number: 4, text: "Certificates" },
   { number: 3, text: "Github Followers" },
   { number: 1, text: "Shiba Inu", icon: "/images/luna.png" },
