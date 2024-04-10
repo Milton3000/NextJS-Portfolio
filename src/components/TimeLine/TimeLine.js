@@ -165,7 +165,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider style={{ marginBottom: '10px' }} />
+      {/* <SectionDivider style={{ marginBottom: '10px' }} /> */}
     </Section>
   );
 };
