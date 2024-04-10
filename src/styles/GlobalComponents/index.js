@@ -191,6 +191,7 @@ export const ButtonBack = styled.div`
     margin-bottom: ${({ alt }) => alt ? '0' : '64px'};
   }
 
+  // 100% eller 30%
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 30%;
     height: 28px;
