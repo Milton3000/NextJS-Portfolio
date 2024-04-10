@@ -27,6 +27,10 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push content to top and bottom */
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
     border-radius: 10px;
@@ -69,7 +73,8 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 2rem; /* Adjust padding as needed */
+  height: 50%; /* Set a fixed height for the card info */
   padding-bottom: 1rem;
   color: #e4e6e7;
   font-style: 2rem;
