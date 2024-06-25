@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'GPT-3',
-    description: "A fake website for the GPT3 OpenAI that contains information about the possibilities and advancements in artificial intelligence. Made from a Figma design.",
+    description: "A fake landing page for the GPT3 OpenAI that contains information about the possibilities and advancements in artificial intelligence. Made from a Figma design.",
       image: '/images/ai.png',
       tags: ['React', 'Tailwind', 'Javascript', 'Figma'],
     source: 'https://gpt3-milton.vercel.app/',
