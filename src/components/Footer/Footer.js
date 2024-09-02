@@ -8,14 +8,14 @@ const Footer = () => {
   return (
 <FooterWrapper>
   <LinkList>
-  {/* <LinkColumn>
+  <LinkColumn>
   <LinkTitle>
   Call
   </LinkTitle>
 <LinkItem href='tel: +46723423550'>
 +46723423550
 </LinkItem>
-  </LinkColumn> */}
+  </LinkColumn>
   <LinkColumn>
   <LinkTitle>
   Email
