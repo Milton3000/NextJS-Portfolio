@@ -35,6 +35,15 @@ export const projects = [
     visit: 'https://github.com/Milton3000/gpt3_milton',
     id: 3,
   },
+  {
+    title: 'HakimLivs',
+    description: "An e-commerce website for a fake grocery store, done as a group project with the aim to imititate a real-life project with sprints and weekly sprint reviews.",
+      image: '/images/Hakim2.png',
+      tags: ['React', 'Bootstrap', 'Javascript', 'MongoDB'],
+    source: 'https://hakimslivs.vercel.app/',
+    visit: 'https://github.com/Milton3000/hakimslivs',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
