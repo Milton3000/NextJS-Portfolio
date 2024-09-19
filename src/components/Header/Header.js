@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import { DiSwift, DiMeteor } from "react-icons/di";
 
 import {
   Container,
@@ -34,7 +34,7 @@ const Header = () => {
               marginBottom: "20px",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span> Portfolio </Span>
+            <DiMeteor size="3rem"/> <Span> Portfolio </Span>
           </a>
         </Link>
       </Div1>

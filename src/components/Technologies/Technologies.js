@@ -11,7 +11,7 @@ const Technologies = () =>  (
 <SectionText>
 From crafting elegant user interfaces to building
 robust backend systems, I enjoy working across the full spectrum of web development.
-I am proficient in HTML, CSS, Javascript, Typescript, React, Node & MongoDB. Small experience with Three.js (3D) & React Native/Expo.
+I am proficient in HTML, CSS (Tailwind & Bootstrap), Javascript, Typescript, React, Node.js, Next.js & MongoDB. <br/> Small experience with Three.js (3D), Angular & React Native/Expo.
 </SectionText>
 <List>
   <ListItem>

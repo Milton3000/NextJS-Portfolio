@@ -28,7 +28,7 @@ kristofferssonmilton@gmail.com
   <SocialIconsContainer>
     <CompanyContainer>
       <Slogan>
-        Innovating one project at a time.
+        Unorthodox mind that challenges the digital status quo.
       </Slogan>
     </CompanyContainer>
     <SocialContainer> 
