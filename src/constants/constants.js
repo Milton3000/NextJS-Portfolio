@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: 'HakimLivs',
-    description: "An e-commerce website for a fake grocery store, done as a group project with the aim to imititate a real-life project with sprints and weekly sprint reviews.",
+    description: "An e-commerce website for a fake grocery store, done as a group project with the aim to imititate a real-life project with sprints and weekly sprint reviews. Might take some time to load the products due to Render.com",
       image: '/images/HAKIM2.png',
       tags: ['React', 'Bootstrap', 'Javascript', 'MongoDB'],
     source: 'https://hakimslivs.vercel.app/',
