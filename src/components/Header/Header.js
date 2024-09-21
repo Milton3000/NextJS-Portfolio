@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiSwift, DiMeteor } from "react-icons/di";
+import { DiMeteor } from "react-icons/di";
 
 import {
   Container,
@@ -14,6 +14,13 @@ import {
 } from "./HeaderStyles";
 
 const Header = () => {
+  const scrollToFooter = () => {
+    const footerSection = document.getElementById("footer"); // Change "footer" to the actual ID of your footer
+    if (footerSection) {
+      footerSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("about");
     if (aboutSection) {
@@ -34,7 +41,7 @@ const Header = () => {
               marginBottom: "20px",
             }}
           >
-            <DiMeteor size="3rem"/> <Span> Portfolio </Span>
+            <DiMeteor size="3rem" /> <Span>Portfolio</Span>
           </a>
         </Link>
       </Div1>
@@ -51,6 +58,10 @@ const Header = () => {
           <Link href="#tech">
             <NavLink>Technologies</NavLink>
           </Link>
+        </li>
+        <li>
+          {/* Contact link to scroll to footer */}
+          <NavLink onClick={scrollToFooter}>Contact</NavLink>
         </li>
       </Div2>
       <Div3>
@@ -75,4 +86,3 @@ const Header = () => {
 };
 
 export default Header;
-

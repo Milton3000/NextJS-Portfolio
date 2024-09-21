@@ -1,5 +1,6 @@
 import Acomplishments from "../components/Acomplishments/Acomplishments";
 import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
+import BackToTop from "../components/BackToTop/BackToTop";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
@@ -18,6 +19,7 @@ const Home = () => {
       <Projects />
       <Technologies />
       <Acomplishments />
+      <BackToTop />
     </Layout>
   );
 };

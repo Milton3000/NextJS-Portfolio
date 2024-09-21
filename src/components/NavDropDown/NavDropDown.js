@@ -4,9 +4,9 @@ export const DropDownContainer = styled.div`
   position: absolute;
   display: flex;
   flex-direction: column;
-  right: -25%;
-  top: 40px;
-  width: 280px;
+  right: 0%;
+  top: 20%;
+  width: 250px;
   background-color: #fff;
   border-radius: 8px;
   z-index: 100;
