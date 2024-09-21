@@ -18,7 +18,7 @@ const Header = () => {
     const aboutSection = document.getElementById("about");
     if (aboutSection) {
       aboutSection.scrollIntoView({ behavior: "smooth", block: "start" });
-      window.scrollBy(0, 550);
+      window.scrollBy(0, 570);
     }
   };
 

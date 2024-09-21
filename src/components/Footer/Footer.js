@@ -28,7 +28,7 @@ kristofferssonmilton@gmail.com
   <SocialIconsContainer>
     <CompanyContainer>
       <Slogan>
-        Unorthodox mind that challenges the digital status quo.
+        Challenge the digital status quo.
       </Slogan>
     </CompanyContainer>
     <SocialContainer> 
