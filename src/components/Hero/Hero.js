@@ -22,7 +22,7 @@ const Hero = (props) => (
       </SectionText>
       <Button
         onClick={() =>
-          window.open("https://miltonkristoffersson.my.canva.site/milton-latest", "_blank")
+          window.open("https://miltonkristoffersson.my.canva.site/updated", "_blank")
         }
       >
         Resume
