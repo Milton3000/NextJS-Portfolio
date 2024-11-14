@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'HakimLivs',
     description: "An e-commerce website for a fake grocery store, done as a group project with the aim to imititate a real-life project with sprints and weekly sprint reviews. -- Might take a minute to load the backend.",
-      image: '/images/HAKIM2.png',
+      image: '/images/Hakim2Transparent.png',
       tags: ['React', 'Bootstrap', 'Javascript', 'MongoDB'],
     source: 'https://hakimslivs.vercel.app/',
     visit: 'https://github.com/Milton3000/hakimslivs',
@@ -38,17 +38,26 @@ export const projects = [
   {
     title: 'E-Commerce',
     description: "E-commerce website involving Fake API for fetching data. The code utilizes JavaScript along with Tailwind CSS for dynamic content rendering and user interaction handling. You can browse products, manage a shopping cart, and view detailed product information.",
-      image: '/images/OrangeLogo.png',
+      image: '/images/OrangeTransp.png',
       tags: ['React', 'Tailwind', 'Javascript', 'API'],
     source: 'https://api-upg-milton-finished.vercel.app/#',
     visit: 'https://github.com/Milton3000/API-UPG.-MILTON-FINISHED/tree/main/src',
     id: 4,
   },
+  {
+    title: 'DreamBnB',
+    description: "DreamBnB platform lets users explore and book unique stays worldwide, featuring listings with detailed descriptions and photos. Built with Next.js, TypeScript, Kinde, Prisma and Supabase, the project provides secure user login, property management, and a streamlined booking process. Users can create, update, and manage their listings seamlessly.",
+      image: '/images/DreamBnBTrans.png',
+      tags: ['Next.js', 'Typescript', 'Supabase', 'Prisma'],
+    source: 'https://bnb-milton.vercel.app/',
+    visit: 'https://github.com/Milton3000/bnb-milton',
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
   { year: 2023, text: 'Started my journey', },
-  { year: 2024, text: 'Began creating projects', },
+  { year: 2024, text: 'Began creating projects Internship started', },
   { year: 2025, text: 'Finish(ed) my education', },
   { year: 2026, text: 'TBD', },
   { year: 2027, text: 'TBD', },

@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 50%;
   object-fit: cover;
   overflow: hidden;
-`
+  border-radius: 10px; /* Match the BlogCard radius */
+`;
+  
 
 export const GridContainer = styled.section`
 display: grid;
@@ -20,8 +22,8 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 2;
 }
+`;
 
-`
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
@@ -73,19 +75,19 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 2rem; 
-  height: 50%; 
-  padding-bottom: 1rem;
+  padding: 1rem;
   color: #e4e6e7;
-  font-style: 2rem;
-  line-height: 24px;
+  font-size: 1.2rem;
+  line-height: 1.8rem; /* Adjust line-height for readability */
   text-align: justify;
-  // padding-bottom: 1rem;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 1rem
-  
-}
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
 `;
+
+
 
 
 export const UtilityList = styled.ul`

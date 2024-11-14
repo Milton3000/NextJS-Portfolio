@@ -11,7 +11,7 @@ const Technologies = () =>  (
 <SectionText>
 From crafting elegant user interfaces to building
 robust backend systems, I enjoy working across the full spectrum of web development.
-I am proficient in HTML, CSS (Tailwind & Bootstrap), Javascript, Typescript, React, Node.js, Next.js & MongoDB. <br/> Small experience with Three.js (3D), Angular & React Native/Expo.
+I am proficient in HTML, CSS (Tailwind & Bootstrap), Javascript, Typescript, React, Node.js, Next.js & Databases. <br/> Small experience with Three.js (3D), Vue & React Native/Expo.
 </SectionText>
 <List>
   <ListItem>
@@ -22,7 +22,7 @@ I am proficient in HTML, CSS (Tailwind & Bootstrap), Javascript, Typescript, Rea
       </ListTitle>
       <ListParagraph>
         Experience with <br />
-        React.js
+        React.js <br /> Vue.js
       </ListParagraph>
     </ListContainer>
   </ListItem>
@@ -33,8 +33,7 @@ I am proficient in HTML, CSS (Tailwind & Bootstrap), Javascript, Typescript, Rea
         Back-end
       </ListTitle>
       <ListParagraph>
-        Experience with <br />
-        Node and Databases
+        Node <br /> Firebase <br /> Supabase <br /> MongoDB
       </ListParagraph>
     </ListContainer>
   </ListItem>
