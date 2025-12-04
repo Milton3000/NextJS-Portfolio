@@ -69,7 +69,7 @@ const Timeline = () => {
 <SectionDivider style={{ marginBottom: '35px' }} />
   <div style={{ display: "flex", alignItems: "flex-start" }}>
     <div style={{ flex: 1 }}>
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>About</SectionTitle>
       <SectionText>
         After spending 7 years in South-Korea, working as an English Teacher,
         I decided to move back home to Sweden and pursue a career in Web
