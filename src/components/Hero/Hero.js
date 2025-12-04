@@ -17,7 +17,7 @@ const Hero = (props) => (
         Kristoffersson
       </SectionTitle>
       <SectionText>
-        I am a fullstack developer student with a passion for creating visually
+        Fullstack developer with a passion for creating visually
         appealing <br /> and user-friendly websites.
       </SectionText>
       <Button
