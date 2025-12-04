@@ -17,8 +17,7 @@ const Hero = (props) => (
         Kristoffersson
       </SectionTitle>
       <SectionText>
-        Fullstack developer with a passion for creating visually
-        appealing <br /> and user-friendly websites.
+        Fullstack Developer
       </SectionText>
       <Button
         onClick={() =>
