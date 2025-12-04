@@ -21,7 +21,7 @@ const Hero = (props) => (
       </SectionText>
       <Button
         onClick={() =>
-          window.open("https://miltonkristoffersson.my.canva.site/updated", "_blank")
+          window.open("https://miltonkristoffersson.my.canva.site/kopia-av-milton-kristoffersson-cv-2025", "_blank")
         }
       >
         Resume
