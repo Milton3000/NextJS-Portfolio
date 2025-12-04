@@ -71,11 +71,7 @@ const Timeline = () => {
     <div style={{ flex: 1 }}>
       <SectionTitle>About</SectionTitle>
       <SectionText>
-        After spending 7 years in South-Korea, working as an English Teacher,
-        I decided to move back home to Sweden and pursue a career in Web
-        Development. <br />
-        I always strive to be the best version of myself, where I enjoy seeking
-        new challenges and ways to improve both personally and professionally. <br />
+      Previous BA in Communications and spent seven years as an English Teacher in South Korea. Finally found my passion. Life's cool. I love life. My dog is awesome, I love her. Scroll down for a mini-version.
         {/* I also have a Shiba Inu that I brought with me from South Korea, and she is my everything. */}
       </SectionText>
     </div>
